@@ -1,12 +1,14 @@
 # USArrests
 Introduction:
 In this project, I conducted a comprehensive analysis of crime data to explore patterns, relationships, and clusters within the dataset. The objective was to gain insights into the complex interactions between crime rates and urbanization, challenging the common belief that higher urbanization inevitably leads to elevated crime rates.
+
 Data Preprocessing:
 
 Data Cleaning: I began by examining the dataset, which contained information on crime rates (Murder, Assault, Rape) and urban population (UrbanPop) for various U.S. cities. Fortunately, the data was clean, with no missing values or duplicate rows.
-Data Validation: I validated the data by checking for issues like leading/trailing whitespaces, inconsistent capitalization, and non-alphanumeric characters (excluding spaces) in city names, all of which were absent.
-Data Analysis:
 
+Data Validation: I validated the data by checking for issues like leading/trailing whitespaces, inconsistent capitalization, and non-alphanumeric characters (excluding spaces) in city names, all of which were absent.
+
+Data Analysis:
 To understand the dataset's characteristics, I computed summary statistics, including mean, median, minimum, maximum, and standard deviation for each crime variable.
 I used visualizations, such as heatmaps and pair plots, to explore correlations and relationships between crime variables and urban population.
 Principal Component Analysis (PCA):
